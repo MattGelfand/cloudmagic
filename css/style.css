@@ -66,6 +66,7 @@ NORMALIZE.css
 
 	a {
  	text-decoration: none;
+ 	color: #f0f0f0;
 	}
 
 	a:visited {
@@ -116,15 +117,6 @@ NORMALIZE.css
 		background-size: cover;
 	}
 
-	.hero-inner {
-		
-		 
-	}
-
-	header {
-	
-	}
-
 	.intro {
 		padding: 8.5em 0;
 		background: #fff;
@@ -135,7 +127,6 @@ NORMALIZE.css
 		margin: 0 auto;
 	}
 
-
 	.section-container {
 	    /*display: flex;
 	    align-items:center;*/
@@ -145,6 +136,25 @@ NORMALIZE.css
 	.section-inner {
 		display: table;
 		width: 100%;
+	}
+
+	.job-container h2 {
+		padding-bottom: 1.2em;
+	}
+
+	.table-cell:hover {
+		color: #fff;
+	}
+
+	.position-title {
+		float: left;
+	}
+
+	.position-location {
+		float: right;
+		text-transform: uppercase;
+		color: #c2c5c7;
+
 	}
 
 
@@ -163,13 +173,11 @@ NORMALIZE.css
 	}
 
 	.text-block {
-		vertical-align: middle;
-		display: table-cell;
 		max-width: 300px;
 		color: #fff;
 	}
 
-	.text-block p:last-child {
+	.graph_two {
 		margin-top: 2em;
 		line-height: 1.8;
 	}
@@ -210,6 +218,16 @@ NORMALIZE.css
 		float: right;
 	}
 
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #ccc;
+		margin: 1.6em 0;
+		opacity: .3;
+		padding: 0;
+	}
+
 	.section-work {
 		background: #88bfc8;
 	}
@@ -222,8 +240,46 @@ NORMALIZE.css
 		background: #fff;
 	}
 
-	.section-nutrition .text-block {
-		color: #343434 !important;
+	.section-nutrition h2 {
+		color: #484848; 
+	}
+
+	.section-nutrition p {
+		color: #999; 
+	}
+
+	.section-freedom {
+		background: #5d6b79;
+	}
+
+	.section-openings {
+		background: #434d59;
+		color: #f0f0f0;
+	}
+
+	.section-meet {
+		background: #fff;
+		padding: 4.2em 0 0 0;
+	}
+
+	.meet-inner {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.meet-inner a {
+		display: block;
+		color: #363e47;
+	}
+
+	.meet-inner img {
+		margin: 0;
+		padding-top: 2.4em;
+	}
+
+	.table-cell {
+		vertical-align: middle;
+		display: table-cell;
 	}
 
 }
